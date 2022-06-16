@@ -11,6 +11,8 @@ body {
     flex-direction: column;
 }
 
+/* Header go */
+
 .header {
     background-color: #1f2937;
     display: flex;
@@ -91,4 +93,22 @@ a {
     align-items: center;
     font-size: 18px;
     height: 100%;
+}
+
+/* Main go */
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 250px;
+    gap: 60px;
+}
+
+/* Footer go */
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 20px 0px;
+    justify-content: center;
 }

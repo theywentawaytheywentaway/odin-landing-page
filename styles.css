@@ -109,6 +109,66 @@ a {
     text-align: center;
 }
 
+.main-images {
+    display: flex;
+    gap: 100px;
+}
+
+.main-images-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 6px;
+}
+
+.main-images-button {
+    padding: 60px;
+    border-radius: 16px;
+    border-color: #3882F6;
+    background-color: white;
+}
+
+.main-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: darkgrey;
+    font-size: 36px;
+    font-style: italic;
+    padding: 70px 300px;
+    gap: 20px;
+}
+
+.main-quote-author {
+    font-weight: bold;
+}
+
+.main-singup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 16px;
+    font-size: 18px;
+}
+
+.main-singup-button {
+    padding: 30px;
+}
+
+#singup-main {
+    border-color: #E5E7EB;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 /* Footer go */
 .footer {
     background-color: #1f2937;
